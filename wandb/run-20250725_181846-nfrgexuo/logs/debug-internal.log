@@ -1,0 +1,13 @@
+{"time":"2025-07-25T18:18:46.4517072+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-25T18:18:47.0060509+05:30","level":"INFO","msg":"stream: created new stream","id":"nfrgexuo"}
+{"time":"2025-07-25T18:18:47.006059+05:30","level":"INFO","msg":"stream: started","id":"nfrgexuo"}
+{"time":"2025-07-25T18:18:47.006059+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nfrgexuo"}
+{"time":"2025-07-25T18:18:47.006059+05:30","level":"INFO","msg":"sender: started","stream_id":"nfrgexuo"}
+{"time":"2025-07-25T18:18:47.006059+05:30","level":"INFO","msg":"handler: started","stream_id":"nfrgexuo"}
+{"time":"2025-07-25T18:19:37.8816241+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.258825,"progress":"1.7KB/1.7KB"}],"total_operations":1}}
+{"time":"2025-07-25T18:19:38.0393839+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-25T18:19:38.4957964+05:30","level":"INFO","msg":"stream: closing","id":"nfrgexuo"}
+{"time":"2025-07-25T18:19:38.4957964+05:30","level":"INFO","msg":"handler: closed","stream_id":"nfrgexuo"}
+{"time":"2025-07-25T18:19:38.4957964+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nfrgexuo"}
+{"time":"2025-07-25T18:19:38.4957964+05:30","level":"INFO","msg":"sender: closed","stream_id":"nfrgexuo"}
+{"time":"2025-07-25T18:19:38.4957964+05:30","level":"INFO","msg":"stream: closed","id":"nfrgexuo"}

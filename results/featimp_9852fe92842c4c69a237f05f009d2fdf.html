@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": "#94a3b8"}, "axis": {"domainColor": "#94a3b8", "labelColor": "#f8fafc", "titleColor": "#facc15"}, "background": "#0f172a", "legend": {"labelColor": "#f8fafc", "titleColor": "#facc15"}, "title": {"color": "#facc15"}}, "data": {"name": "data-979728f4464b77b4012ddfdca3f24e3a"}, "mark": {"type": "bar", "color": "#38bdf8"}, "encoding": {"x": {"field": "Importance", "type": "quantitative"}, "y": {"field": "Feature", "sort": "-x", "type": "nominal"}}, "title": "Poisson Top Features", "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-979728f4464b77b4012ddfdca3f24e3a": [{"Feature": "Exposure", "Importance": 0.2617850225802425}, {"Feature": "BonusMalus", "Importance": 0.2608333599024266}, {"Feature": "VehBrand_B12", "Importance": 0.1937673036204368}, {"Feature": "DrivAge", "Importance": 0.12490588360965325}, {"Feature": "Area_E", "Importance": 0.04397512085738768}, {"Feature": "Density", "Importance": 0.034997684834091956}, {"Feature": "Area_D", "Importance": 0.032890181752127164}, {"Feature": "Region_R82", "Importance": 0.027851628341233167}, {"Feature": "VehPower", "Importance": 0.01879237246511591}, {"Feature": "Region_R53", "Importance": 0.018791910678383823}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

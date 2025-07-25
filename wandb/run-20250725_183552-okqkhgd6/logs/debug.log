@@ -1,0 +1,25 @@
+2025-07-25 18:35:52,709 INFO    MainThread:24556 [wandb_init.py:setup_run_log_directory():703] Logging user logs to c:\Users\Tamaghna\Documents\Insurance_GLM\wandb\run-20250725_183552-okqkhgd6\logs\debug.log
+2025-07-25 18:35:52,709 INFO    MainThread:24556 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to c:\Users\Tamaghna\Documents\Insurance_GLM\wandb\run-20250725_183552-okqkhgd6\logs\debug-internal.log
+2025-07-25 18:35:52,710 INFO    MainThread:24556 [wandb_init.py:init():830] calling init triggers
+2025-07-25 18:35:52,710 INFO    MainThread:24556 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-07-25 18:35:54,346 INFO    MainThread:24556 [wandb_init.py:init():871] starting backend
+2025-07-25 18:35:54,348 INFO    MainThread:24556 [wandb_init.py:init():874] sending inform_init request
+2025-07-25 18:35:54,349 INFO    MainThread:24556 [wandb_init.py:init():882] backend started and connected
+2025-07-25 18:35:54,351 INFO    MainThread:24556 [wandb_run.py:_label_probe_notebook():1304] probe notebook
+2025-07-25 18:35:54,352 INFO    MainThread:24556 [wandb_run.py:_label_probe_notebook():1314] Unable to probe notebook: Expecting value: line 1 column 1 (char 0)
+2025-07-25 18:35:54,352 INFO    MainThread:24556 [wandb_init.py:init():953] updated telemetry
+2025-07-25 18:35:54,353 INFO    MainThread:24556 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-07-25 18:35:55,478 INFO    MainThread:24556 [wandb_init.py:init():1029] starting run threads in backend
+2025-07-25 18:35:55,767 INFO    MainThread:24556 [wandb_run.py:_console_start():2458] atexit reg
+2025-07-25 18:35:55,767 INFO    MainThread:24556 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-07-25 18:35:55,767 INFO    MainThread:24556 [wandb_run.py:_redirect():2375] Wrapping output streams.
+2025-07-25 18:35:55,767 INFO    MainThread:24556 [wandb_run.py:_redirect():2398] Redirects installed.
+2025-07-25 18:35:55,768 INFO    MainThread:24556 [wandb_init.py:init():1075] run started, returning control to user process
+2025-07-25 18:36:30,518 INFO    MainThread:24556 [wandb_run.py:_finish():2224] finishing run nagtamaghna-oxford-vision-and-sensor-technology/Insurance_GLM/okqkhgd6
+2025-07-25 18:36:30,518 INFO    MainThread:24556 [wandb_run.py:_atexit_cleanup():2423] got exitcode: 0
+2025-07-25 18:36:30,519 INFO    MainThread:24556 [wandb_run.py:_restore():2405] restore
+2025-07-25 18:36:30,519 INFO    MainThread:24556 [wandb_run.py:_restore():2411] restore done
+2025-07-25 18:36:34,089 INFO    MainThread:24556 [wandb_run.py:_footer_history_summary_info():3903] rendering history
+2025-07-25 18:36:34,089 INFO    MainThread:24556 [wandb_run.py:_footer_history_summary_info():3935] rendering summary
+2025-07-25 18:36:34,090 INFO    MainThread:24556 [wandb_run.py:_footer_sync_info():3864] logging synced files

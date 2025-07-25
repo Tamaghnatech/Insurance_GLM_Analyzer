@@ -1,0 +1,2 @@
+📤 Upload CSV with Claim Count (+ optional Severity),Result,📊 Model Comparison,📉 Residual Plot,📦 Download All Visuals,timestamp
+.gradio\flagged\ Upload CSV with Claim Count  optional Severity\22aff137f3aa3e474538\french_motor_claims.csv,✅ Best Model: Poisson | Saved: models/best_model_poisson.pkl,.gradio\flagged\ Model Comparison\4e0e4cee968d2b247825\model_comparison.png,.gradio\flagged\ Residual Plot\e7afddca83c4052d306e\poisson_residuals.png,.gradio\flagged\ Download All Visuals\5922df4953ea54315f9c\analysis_bundle.zip,2025-07-26 00:06:11.705564

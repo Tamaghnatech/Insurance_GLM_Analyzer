@@ -1,18 +1,7 @@
-# Python
+# Python bytecode cache
 __pycache__/
 *.py[cod]
-*.ipynb_checkpoints
-.env
 
-# Data & Results
-*.csv
-*.zip
-models/
-results/
-logs/
-.wandb/
-.gradio/
-
-# OS
+# OS junk files
 .DS_Store
 Thumbs.db
