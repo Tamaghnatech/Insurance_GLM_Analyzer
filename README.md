@@ -99,11 +99,23 @@ python app.py
 
 ## 📊 Visualizations
 
-| 🔍 Residuals                       | 📌 Feature Importance                                     |
-| ---------------------------------- | --------------------------------------------------------- |
+### 🔍 Model Insights
+
+| Residuals                       | Feature Importance                                     |
+| ------------------------------- | ----------------------------------------------------- |
 | ![](results/poisson_residuals.png) | ![](results/featimp_eca7a6b456af4624bb949f5ac496dbef.png) |
 
 Visuals auto-update based on selected model (Poisson or Gamma).
+
+---
+
+### 🖥️ App Visuals (Gradio Interface)
+
+| Home Page                       | Analysis Display                                     |
+| ------------------------------- | --------------------------------------------------- |
+| ![](results/App_vis1.png)       | ![](results/App_vis2.png)                           |
+
+This is how your GLM Analyzer looks and feels — dark, modern, and intuitive.
 
 ---
 
