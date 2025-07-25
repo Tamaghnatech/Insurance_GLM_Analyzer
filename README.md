@@ -73,8 +73,6 @@ Insurance_GLM/
 ````
 
 ---
----
-
 ## 📥 Data Access
 
 Due to GitHub's file size limitations, the preprocessed dataset `X_processed.csv` (146MB) is hosted externally.
@@ -83,6 +81,7 @@ Due to GitHub's file size limitations, the preprocessed dataset `X_processed.csv
 
 *Place it manually inside the `results/` folder to ensure the app runs smoothly.*
 
+---
 ## 🚀 Getting Started
 
 ### 🔧 Install Dependencies
