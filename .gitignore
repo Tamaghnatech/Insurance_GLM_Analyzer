@@ -5,3 +5,4 @@ __pycache__/
 # OS junk files
 .DS_Store
 Thumbs.db
+results/X_processed.csv
