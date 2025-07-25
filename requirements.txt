@@ -1,0 +1,15 @@
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+
+# Visualization
+plotly>=5.14.0
+
+# Web Interface
+gradio>=4.5.0
+wandb>=0.15.0 #if using wieghts and biases for logging like I have
+
+# Optional extras if needed
+pyyaml>=6.0  # for config.yaml if you're using it
+jupyterlab>=4.0.0  # if you want to run notebooks
