@@ -183,4 +183,10 @@ If this helped you build a dashboard or predict risk:
 > Show some love — ⭐ the repo and share with your data gang 🧠🔥
 
 ---
+---
+
+## 👨‍💻 About the Developer
+
+Built with passion by **Tamaghna Nag** — AI Engineer, creator of NovalQ, and lifelong builder of intelligent systems.  
+Always learning, always shipping. 🚀
 
